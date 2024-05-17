@@ -1,5 +1,8 @@
 ### Video <br>
 https://drive.google.com/file/d/1I1R-uIepBtzQW3s5_zZjuD5KKds8o-Em/view?usp=drivesdk
+https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/bf763d91-f41a-452b-b065-1d92e370efbb
+
+
 ### Guardar Imágenes <br>
 ### Splash Screen <br>
 Una  vez que nosotros hayamos instalado los recursos necesarios, abrimos la carpeta creada por ionic en visual studio code.
