@@ -55,11 +55,11 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 * Después de capturar una foto, permite a los usuarios guardarla en el dispositivo. Esto implica guardar la imagen en el almacenamiento interno o externo del dispositivo, dependiendo de las necesidades.
 
 
-#### HOIW TO RUN 
-How to Run
-    Install Ionic if needed: npm install -g @ionic/cli.
-    Clone this repository.
-    In a terminal, change directory into the repo: cd photo-gallery-capacitor-ng.
-    Install all packages: npm install.
-    Run on the web: ionic serve.
-    Run on iOS or Android: See here.
+#### HOIW TO RUN <br> 
+How to Run <br>
+   <br> Install Ionic if needed: npm install -g @ionic/cli.
+    <br> Clone this repository.
+    <br> In a terminal, change directory into the repo: cd photo-gallery-capacitor-ng.
+    <br> Install all packages: npm install.
+    <br> Run on the web: ionic serve.
+    <br> Run on iOS or Android.
