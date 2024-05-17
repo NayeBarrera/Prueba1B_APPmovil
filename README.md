@@ -57,6 +57,7 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 
 #### HOIW TO RUN <br> 
 How to Run <br>
-<br> Clonar el repositorio<br> Ejecutar: npm 
+<br> Clonar el repositorio
+<br> Ejecutar: npm i 
 <br> Ejecturar npx cap open android
 <br> Generar el apk.
