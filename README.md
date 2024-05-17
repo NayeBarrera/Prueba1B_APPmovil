@@ -55,7 +55,7 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 * Después de capturar una foto, permite a los usuarios guardarla en el dispositivo. Esto implica guardar la imagen en el almacenamiento interno o externo del dispositivo, dependiendo de las necesidades.
 
 
-#### HOIW TO RUN <br> 
+#### HOW TO RUN <br> 
 How to Run <br>
 <br> Clonar el repositorio
 <br> Ejecutar: npm i 
