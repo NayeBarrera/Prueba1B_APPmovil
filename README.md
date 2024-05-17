@@ -47,9 +47,13 @@ Se importó PhotoService y UserPhoto desde ../services/photo.service, y ActionSh
 El equipo añadió el método showActionSheet, que se utiliza para mostrar una hoja de acción (action sheet) cuando se interactúa con una foto. Este método es asíncrono, por lo que se usa await para esperar la creación de la hoja de acción con actionSheetController.create. En la configuración de la hoja de acción, se definieron dos botones: uno para eliminar la foto (Delete), que llama al método deletePicture de photoService pasando la foto y su posición; y otro para cancelar (Cancel), que cierra la hoja de acción sin realizar ninguna acción adicional. Finalmente, se presenta la hoja de acción con actionSheet.present(). <br>
 ![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/9840d48e-cc15-48bb-b9dd-b0589dd11a6b) <br>
 
-
-
-
+#Eliminar fotos - Deleting Photos
+Para implementar la función de eliminación de fotos en nuestra aplicación, primero asegurémonos de que Live Reload esté ejecutándose y la aplicación esté abierta en su dispositivo. 
+* En tab2.page.html, añadir un controlador de clics a cada <ion-img>.
+* Configurar el controlador para mostrar un cuadro de diálogo Hoja de acción con opciones para eliminar la foto o cancelar.
+  ![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/170026913/13dd107a-ef43-4d91-9b60-fccda695bc0f)
+![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/170026913/4673212f-7106-48f5-b9b2-3efbc340aa14)
+* Se implementa la función deletePicture() en photo.service.ts, que actualiza el array de fotos y elimina el archivo del sistema.
 ### Conclusiones <br>
 
 
