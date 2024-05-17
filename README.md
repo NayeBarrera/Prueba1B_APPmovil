@@ -1,9 +1,6 @@
 ### Video <br>
 https://drive.google.com/file/d/1I1R-uIepBtzQW3s5_zZjuD5KKds8o-Em/view?usp=drivesdk
 ### Guardar Imágenes <br>
-### Borrar Imágenes <br>
-![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/170026913/0a10d5a7-de9f-4083-85cb-5ac08cc069cb)
-
 ### Splash Screen <br>
 Una  vez que nosotros hayamos instalado los recursos necesarios, abrimos la carpeta creada por ionic en visual studio code.
 Se importó el componente Component y el servicio PhotoService desde Angular. Se configuró el componente Tab2Page como un componente Angular, definiendo su selector y otras configuraciones. Luego, se definió el constructor de la clase Tab2Page. Posteriormente, se agregó un constructor público que recibe una instancia del servicio PhotoService. Se implementó un método addPhotoToGallery() en la clase Tab2Page, el cual llama al método addNewToGallery() del servicio PhotoService cuando se ejecuta. Este método se encargará de agregar una nueva foto a la galería. <br>
@@ -48,6 +45,14 @@ Se importó PhotoService y UserPhoto desde ../services/photo.service, y ActionSh
 
 El equipo añadió el método showActionSheet, que se utiliza para mostrar una hoja de acción (action sheet) cuando se interactúa con una foto. Este método es asíncrono, por lo que se usa await para esperar la creación de la hoja de acción con actionSheetController.create. En la configuración de la hoja de acción, se definieron dos botones: uno para eliminar la foto (Delete), que llama al método deletePicture de photoService pasando la foto y su posición; y otro para cancelar (Cancel), que cierra la hoja de acción sin realizar ninguna acción adicional. Finalmente, se presenta la hoja de acción con actionSheet.present(). <br>
 ![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/9840d48e-cc15-48bb-b9dd-b0589dd11a6b) <br>
+
+### Eliminar fotos - Deleting Photos
+Para implementar la función de eliminación de fotos en nuestra aplicación, primero asegurémonos de que Live Reload esté ejecutándose y la aplicación esté abierta en su dispositivo. 
+* En tab2.page.html, añadir un controlador de clics a cada <ion-img>.
+* Configurar el controlador para mostrar un cuadro de diálogo Hoja de acción con opciones para eliminar la foto o cancelar.
+* Se implementa la función deletePicture() en photo.service.ts, que actualiza el array de fotos y elimina el archivo del sistema.
+![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/170026913/0a10d5a7-de9f-4083-85cb-5ac08cc069cb)
+
 ### Splash Screen <br>
 1. Usamos los siguientes comandos para instalar las librerías necesarias para el splash screen
 ```
@@ -89,11 +94,7 @@ ionic cap sync android
 ![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/d53e82d4-1ac1-4183-aa64-627209172036)<br>
 ![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/e85d24ba-3209-47e4-87e8-298a062ab43e)<br>
 ![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/cb2ec87e-ac75-4069-a9fc-815d7005998d)
-### Eliminar fotos - Deleting Photos
-Para implementar la función de eliminación de fotos en nuestra aplicación, primero asegurémonos de que Live Reload esté ejecutándose y la aplicación esté abierta en su dispositivo. 
-* En tab2.page.html, añadir un controlador de clics a cada <ion-img>.
-* Configurar el controlador para mostrar un cuadro de diálogo Hoja de acción con opciones para eliminar la foto o cancelar.
-* Se implementa la función deletePicture() en photo.service.ts, que actualiza el array de fotos y elimina el archivo del sistema.
+
 ### Conclusiones <br>
 
 
