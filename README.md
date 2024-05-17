@@ -8,6 +8,34 @@ https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/bf763d91-f41a-4
 
 
 ### Guardar Imágenes <br>
+# Guardar la foto y la colección de fotos en el almacenamiento:
+
+    Primero, la foto capturada se guarda en el almacenamiento de datos del dispositivo. <br>
+    Luego, se añade la foto al principio de la colección de fotos en la aplicación. <br>
+    Después, la colección actualizada se guarda en las preferencias de la aplicación para que persista incluso después de cerrar la aplicación. <br>
+<br>
+![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/f193c9c3-2c1d-44d4-9565-6e71bd607e35)
+<br>
+
+# Guardar la foto en el almacenamiento: <br>
+    La foto capturada se convierte a formato base64 para poder ser almacenada. <br>
+    Se genera un nombre de archivo único basado en la fecha y hora actual.<br>
+    El archivo de imagen se escribe en el directorio de datos del dispositivo, utilizando el nombre de archivo generado.<br>
+<br>
+
+![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/8cd0830f-d8c6-466a-80c5-ce91bdd31575) <br>
+
+
+# Cargar las fotos guardadas: <br>
+
+    Se recuperan las fotos guardadas desde las preferencias de la aplicación. <br>
+    Se actualiza la colección de fotos en la aplicación con las fotos recuperadas. <br>
+    Para cada foto en la colección, se carga el archivo de imagen correspondiente desde el almacenamiento. <br>
+    Se convierte el archivo de imagen a formato base64 para su visualización en la aplicación. <br>
+
+    
+
+
 Una  vez que nosotros hayamos instalado los recursos necesarios, abrimos la carpeta creada por ionic en visual studio code.
 Se importó el componente Component y el servicio PhotoService desde Angular. Se configuró el componente Tab2Page como un componente Angular, definiendo su selector y otras configuraciones. Luego, se definió el constructor de la clase Tab2Page. Posteriormente, se agregó un constructor público que recibe una instancia del servicio PhotoService. Se implementó un método addPhotoToGallery() en la clase Tab2Page, el cual llama al método addNewToGallery() del servicio PhotoService cuando se ejecuta. Este método se encargará de agregar una nueva foto a la galería. <br>
 ![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/32034861-a8ed-436d-b955-a542c02cc05e) <br>
