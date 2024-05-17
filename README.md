@@ -54,7 +54,7 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 
 ### Eliminar fotos - Deleting Photos
 Para implementar la función de eliminación de fotos en nuestra aplicación, primero asegurémonos de que Live Reload esté ejecutándose y la aplicación esté abierta en el dispositivo. 
-* En tab2.page.html, añadir un controlador de clics a cada <ion-img>.
+* En tab2.page.html, añadir un controlador de clics a cada < ion-img >.
 * Configurar el controlador para mostrar un cuadro de diálogo Hoja de acción con opciones para eliminar la foto o cancelar.
 * Se implementa la función deletePicture() en photo.service.ts, que actualiza el array de fotos y elimina el archivo del sistema.<br>
 ![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/170026913/0a10d5a7-de9f-4083-85cb-5ac08cc069cb)
