@@ -53,3 +53,13 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 * La inclusión de características como la pantalla de presentación (splash screen) con la foto de los integrantes agrega un toque personal y mejora la experiencia general del usuario al proporcionar una conexión emocional.
 * La capacidad de capturar, guardar, cargar y borrar fotos ofrece a los usuarios un conjunto completo de herramientas para gestionar su contenido visual
 * Después de capturar una foto, permite a los usuarios guardarla en el dispositivo. Esto implica guardar la imagen en el almacenamiento interno o externo del dispositivo, dependiendo de las necesidades.
+
+
+#### HOIW TO RUN 
+How to Run
+    Install Ionic if needed: npm install -g @ionic/cli.
+    Clone this repository.
+    In a terminal, change directory into the repo: cd photo-gallery-capacitor-ng.
+    Install all packages: npm install.
+    Run on the web: ionic serve.
+    Run on iOS or Android: See here.
