@@ -1,4 +1,4 @@
-###Proceso <br>
+### Proceso <br>
 
 Una  vez que nosotros hayamos instalado los recursos necesarios, abrimos la carpeta creada por ionic en visual studio code.
 Se importó el componente Component y el servicio PhotoService desde Angular. Se configuró el componente Tab2Page como un componente Angular, definiendo su selector y otras configuraciones. Luego, se definió el constructor de la clase Tab2Page. Posteriormente, se agregó un constructor público que recibe una instancia del servicio PhotoService. Se implementó un método addPhotoToGallery() en la clase Tab2Page, el cual llama al método addNewToGallery() del servicio PhotoService cuando se ejecuta. Este método se encargará de agregar una nueva foto a la galería.
@@ -44,5 +44,9 @@ Se importó PhotoService y UserPhoto desde ../services/photo.service, y ActionSh
 El equipo añadió el método showActionSheet, que se utiliza para mostrar una hoja de acción (action sheet) cuando se interactúa con una foto. Este método es asíncrono, por lo que se usa await para esperar la creación de la hoja de acción con actionSheetController.create. En la configuración de la hoja de acción, se definieron dos botones: uno para eliminar la foto (Delete), que llama al método deletePicture de photoService pasando la foto y su posición; y otro para cancelar (Cancel), que cierra la hoja de acción sin realizar ninguna acción adicional. Finalmente, se presenta la hoja de acción con actionSheet.present().
 
 
+### Conclisiones
 
-
+## CONCLUSIONES 
+* La inclusión de características como la pantalla de presentación (splash screen) con la foto de los integrantes agrega un toque personal y mejora la experiencia general del usuario al proporcionar una conexión emocional.
+* La capacidad de capturar, guardar, cargar y borrar fotos ofrece a los usuarios un conjunto completo de herramientas para gestionar su contenido visual
+* Después de capturar una foto, permite a los usuarios guardarla en el dispositivo. Esto implica guardar la imagen en el almacenamiento interno o externo del dispositivo, dependiendo de las necesidades.
