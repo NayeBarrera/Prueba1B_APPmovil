@@ -57,9 +57,6 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 
 #### HOIW TO RUN <br> 
 How to Run <br>
-   <br> Install Ionic if needed: npm install -g @ionic/cli.
-    <br> Clone this repository.
-    <br> In a terminal, change directory into the repo: cd photo-gallery-capacitor-ng.
-    <br> Install all packages: npm install.
-    <br> Run on the web: ionic serve.
-    <br> Run on iOS or Android.
+<br> Clonar el repositorio<br> Ejecutar: npm 
+<br> Ejecturar npx cap open android
+<br> Generar el apk.
