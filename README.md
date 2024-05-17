@@ -42,6 +42,9 @@ añadió el método ngOnInit con la palabra clave async, indicando que la funci�
 Se importó PhotoService y UserPhoto desde ../services/photo.service, y ActionSheetController desde @ionic/angular. Luego, se definió el constructor del componente para recibir instancias de PhotoService y ActionSheetController, permitiendo su uso en el componente.
 
 El equipo añadió el método showActionSheet, que se utiliza para mostrar una hoja de acción (action sheet) cuando se interactúa con una foto. Este método es asíncrono, por lo que se usa await para esperar la creación de la hoja de acción con actionSheetController.create. En la configuración de la hoja de acción, se definieron dos botones: uno para eliminar la foto (Delete), que llama al método deletePicture de photoService pasando la foto y su posición; y otro para cancelar (Cancel), que cierra la hoja de acción sin realizar ninguna acción adicional. Finalmente, se presenta la hoja de acción con actionSheet.present().
+![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/9840d48e-cc15-48bb-b9dd-b0589dd11a6b)
+
+
 
 
 ### Conclisiones
