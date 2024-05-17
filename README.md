@@ -1,5 +1,8 @@
-### Proceso <br>
+### Video <br>
 
+### Guardar Imágenes <br>
+### Borrar Imágenes <br>
+### Splash Screen <br>
 Una  vez que nosotros hayamos instalado los recursos necesarios, abrimos la carpeta creada por ionic en visual studio code.
 Se importó el componente Component y el servicio PhotoService desde Angular. Se configuró el componente Tab2Page como un componente Angular, definiendo su selector y otras configuraciones. Luego, se definió el constructor de la clase Tab2Page. Posteriormente, se agregó un constructor público que recibe una instancia del servicio PhotoService. Se implementó un método addPhotoToGallery() en la clase Tab2Page, el cual llama al método addNewToGallery() del servicio PhotoService cuando se ejecuta. Este método se encargará de agregar una nueva foto a la galería. <br>
 ![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/32034861-a8ed-436d-b955-a542c02cc05e) <br>
