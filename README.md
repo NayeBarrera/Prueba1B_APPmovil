@@ -57,7 +57,10 @@ Para implementar la función de eliminación de fotos en nuestra aplicación, pr
 
 * La inclusión de características como la pantalla de presentación (splash screen) con la foto de los integrantes agrega un toque personal y mejora la experiencia general del usuario al proporcionar una conexión emocional.
 * La capacidad de capturar, guardar, cargar y borrar fotos ofrece a los usuarios un conjunto completo de herramientas para gestionar su contenido visual
+* La función deletePicture() en photo.service.ts está diseñada de manera modular, facilitando su reutilización y mantenimiento futuros.
 * Después de capturar una foto, permite a los usuarios guardarla en el dispositivo. Esto implica guardar la imagen en el almacenamiento interno o externo del dispositivo, dependiendo de las necesidades.
+* La estructura y el enfoque adoptados permiten una fácil expansión de la funcionalidad, como añadir más opciones en la hoja de acción o integrar nuevas características en la galería de fotos.
+* Se destaca la importancia de una buena organización, la utilización de herramientas y prácticas de desarrollo modernas, y la atención a la experiencia del usuario en el desarrollo de aplicaciones móviles.
 
 
 #### HOW TO RUN <br> 
