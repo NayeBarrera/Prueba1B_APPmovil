@@ -48,7 +48,47 @@ Se importó PhotoService y UserPhoto desde ../services/photo.service, y ActionSh
 
 El equipo añadió el método showActionSheet, que se utiliza para mostrar una hoja de acción (action sheet) cuando se interactúa con una foto. Este método es asíncrono, por lo que se usa await para esperar la creación de la hoja de acción con actionSheetController.create. En la configuración de la hoja de acción, se definieron dos botones: uno para eliminar la foto (Delete), que llama al método deletePicture de photoService pasando la foto y su posición; y otro para cancelar (Cancel), que cierra la hoja de acción sin realizar ninguna acción adicional. Finalmente, se presenta la hoja de acción con actionSheet.present(). <br>
 ![imagen](https://github.com/Jhordy11/prueba-ionic-camera/assets/139184732/9840d48e-cc15-48bb-b9dd-b0589dd11a6b) <br>
-
+### Splash Screen <br>
+1. Usamos los siguientes comandos para instalar las librerías necesarias para el splash screen
+```
+npm install @capacitor/splash-screen
+npx cap sync
+```
+2. Agregamos lo siguiente en capacitor.config.ts
+```
+plugins: {
+    SplashScreen: {
+      launchShowDuration: 3000,
+      launchAutoHide: true,
+      androidSplashResourceName: "splash", 
+      showSpinner:false,
+      splashFullScreen:true,
+      splashImmersive:true
+    },
+  }
+```
+3. Creamos una carpeta y dentro de esta agregamos el icon.png y splash.png
+```
+--resources
+   -icon.png
+   -splash.png
+```
+4. Usamos los siguientes comando para crear los recursos para android
+```
+npm install -g  cordova-res
+cordova-res android --skiip-config --copy
+```
+### Deploy <br>
+1. Usamos los comandos
+```
+npm run build
+npx cap add android
+ionic cap sync android
+```
+2. Generamos el APK.
+![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/d53e82d4-1ac1-4183-aa64-627209172036)<br>
+![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/e85d24ba-3209-47e4-87e8-298a062ab43e)<br>
+![image](https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/cb2ec87e-ac75-4069-a9fc-815d7005998d)
 ### Eliminar fotos - Deleting Photos
 Para implementar la función de eliminación de fotos en nuestra aplicación, primero asegurémonos de que Live Reload esté ejecutándose y la aplicación esté abierta en su dispositivo. 
 * En tab2.page.html, añadir un controlador de clics a cada <ion-img>.
