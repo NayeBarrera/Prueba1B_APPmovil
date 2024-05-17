@@ -109,7 +109,6 @@ ionic cap sync android
 
 
 #### HOW TO RUN <br> 
-How to Run <br>
 <br> Clonar el repositorio
 <br> Ejecutar: npm i 
 <br> Ejecturar npx cap open android
