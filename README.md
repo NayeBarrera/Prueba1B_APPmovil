@@ -46,7 +46,7 @@ El equipo añadió el método showActionSheet, que se utiliza para mostrar una h
 
 ### Conclisiones
 
-## CONCLUSIONES 
+
 * La inclusión de características como la pantalla de presentación (splash screen) con la foto de los integrantes agrega un toque personal y mejora la experiencia general del usuario al proporcionar una conexión emocional.
 * La capacidad de capturar, guardar, cargar y borrar fotos ofrece a los usuarios un conjunto completo de herramientas para gestionar su contenido visual
 * Después de capturar una foto, permite a los usuarios guardarla en el dispositivo. Esto implica guardar la imagen en el almacenamiento interno o externo del dispositivo, dependiendo de las necesidades.
