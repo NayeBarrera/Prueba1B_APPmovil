@@ -1,10 +1,7 @@
 ### Video <br>
 https://drive.google.com/file/d/1I1R-uIepBtzQW3s5_zZjuD5KKds8o-Em/view?usp=drivesdk <br>
 https://github.com/Jhordy11/prueba-ionic-camera/assets/111138912/bf763d91-f41a-452b-b065-1d92e370efbb
-### Integrantes <br>
--[Aguas Jhordy](https://github.com/Jhordy11) <br>
--[Barrera Nayeli](https://github.com/NayeBarrera)<br>
--[Lascano Aldahir](https://github.com/LascanoAldahir) 
+
 
 
 ### Guardar Imágenes <br>
